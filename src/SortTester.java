@@ -5,12 +5,12 @@ public class SortTester
   public static void main(String[] args)
   {
     /* --- SELECTION SORT --- */
-    int[] arr1 = {3, 86, -20, 14, 40, 19, -4, 100, 89, 13, 54, 12, 77, -5, 0, 6}; 
+    int[] arr1 = {9, 15, 20, 29, 38, 53, 54, 34, 64, 70, 75, 80, 81, 83, 94, 96, 97, 99};
     Sort.selectionSort(arr1);
     System.out.println(Arrays.toString(arr1));
  
     /* --- INSERTION SORT --- */ 
-    int[] arr2 = {3, 86, -20, 14, 40, 19, -4, 100, 89, 13, 54, 12, 77, -5, 0, 6};    
+    int[] arr2 = {9, 15, 20, 29, 38, 53, 54, 34, 64, 70, 75, 80, 81, 83, 94, 96, 97, 99};
     Sort.insertionSort(arr2);
     System.out.println(Arrays.toString(arr2));
   }
